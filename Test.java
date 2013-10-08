@@ -1,16 +1,9 @@
 public class Test {
+    
+    private static int i;
+    
+    private static int addOne()
 
-    /**
-     * @param args the command line arguments
-     * sper sa fie buna de ceva solutia mea:D, 
-     * te uiti peste ea etc
-     */
-    
-    
-    private static int i;//variabila accea input
-    
-    private static int addOne()//astea sunt acele functii f1,f2,f3,,SUNT FUNCTII ASTA E IMPORTANT DE TIMP INTREG :) INT
-                                //returneaza nr intreg:)
     {
         return i+1;
     }
@@ -22,7 +15,7 @@ public class Test {
     
     private static int substract_3()
     {
-        return i/3; //trebuie ales un nr care se imparte la 3
+        return i/3;
     }
 
     private static void calc_val(int[] calc)
